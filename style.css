@@ -109,6 +109,9 @@ li{
     body{
         background-image: url(./source/phone\ wallpaper.jpg);
     }
+    ul{
+        top: 45%;
+    }
 }
 
 @media screen and (max-width: 570px){
