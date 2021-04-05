@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <script src="./script.js"></script>
+    <link rel="shortcut icon" href="./source/Topicon.png" >
+    <title>Churrascômetro</title>
+</head>
+<body>
+    <header>
+        <img src="./source/icon.png" alt="icon" width="65px">
+
+        <span id="title"> Churrascômetro</span>
+    </header>
+    <section>
+        <div id="churrascometro"><img id="image" src="./source/churrascometro.png" alt="Churrascômetro" ></div>
+        <ul>
+            <li>Insira os dados estimados do Churrasco: </li>
+            <li id="adultosimg"><input id="adultos" type="number" placeholder="Adultos"></li>
+            <li id="kidsimg"><input id="kids" type="number" placeholder="Crianças"></li>
+            <li id="timeimg"><input id="tempo" type="number" placeholder="Tempo estimado"></li>
+            <li><button id="resul" onclick="calculos()"> Calcular </button></li>
+        </ul>
+        
+        <ul id="Results">
+            <li id="carne">Carne: <div id="carneresult"></div>
+            </li>
+            <li id="cerveja">Cerveja: <div id="cervejaresult"></div>
+            </li>
+            <li id="refrigerante">Refrigerante: <div id="refriresult"></div>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
