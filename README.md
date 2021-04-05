@@ -1,5 +1,5 @@
 # Churrascometro
-Projeto usando HTML, CSS e JavaScript para estimar a quantidade necessária de Carne, Cerveja e Refrigerante para um churrasco.. 
+Projeto usando HTML, CSS e JavaScript para estimar a quantidade necessária de Carne, Cerveja e Refrigerante para um churrasco.
 
 crianças valem por 0.5 adultos.
 --------------------------------------------------------------------
@@ -12,3 +12,4 @@ NÃO CONTANDO AS CRIANÇAS.
 --------------------------------------------------------------------
 Refrigerante - 1000ml por pessoa para churrascos com menos de 6 horas
 de duração, 1500ml para churrascos acima de 6 horas.
+--------------------------------------------------------------------
